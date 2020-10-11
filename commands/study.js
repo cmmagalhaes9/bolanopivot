@@ -227,6 +227,9 @@ module.exports = {
                 case 'SD':
                     message.member.roles.add('764189568744161290').catch(console.error0);
                     break;
+                case 'OUT':
+                    message.member.roles.add('764945006037303337').catch(console.error0);
+                    break;
                 default:
                     break;
             }
