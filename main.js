@@ -45,7 +45,9 @@ client.on('message',message=>{
             client.commands.get('ucs').execute(message)
         };
         if(command==='avisos'){
-            client.commands.get('avisos').execute(message)
+            const Guild2 = client.guilds.cache.get('537337830138052615');
+            const Members= Guild2.members.cache.keys();
+            Members.foreach(id=>id.send('Aviso!\n Devido às novas modificações do Discord de LEI pedimos que todos passem pelo canal #🤖bot-commands para atualizarem as suas permissões.\n Dentro de uma semanaa apagaremos os membros sem roles para limpar o servidor de utilizadores inativos!\nObrigado!'));
         };
 
     }
