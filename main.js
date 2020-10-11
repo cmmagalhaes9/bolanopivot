@@ -46,7 +46,7 @@ client.on('message',message=>{
         };
         if(command==='avisos'){
             const canal = client.channel.cache.find(channel=>channel.id==='764890387668008990')
-            canal.send('Aviso!\n Devido às novas modificações do Discord de LEI pedimos que todos passem pelo canal #🤖bot-commands para atualizarem as suas permissões.\n Dentro de uma semanaa apagaremos os membros sem roles para limpar o servidor de utilizadores inativos!\nObrigado!');
+            canal.send('@everyone\nAviso!\n Devido às novas modificações do Discord de LEI pedimos que todos passem pelo canal #🤖bot-commands para atualizarem as suas permissões.\n Dentro de uma semanaa apagaremos os membros sem roles para limpar o servidor de utilizadores inativos!\nObrigado!');
         };
 
     }
