@@ -21,7 +21,7 @@ module.exports = {
             {name:'4º Ano 1º Semestre',value:'[APS] Arquitetura e padrões de software\n[IO] Investigação operacional\n[AS] Administração de sistemas\n[Crowdsourcing] Crowdsourcing\n[Deeplearning] Deeplearning aplicado\n[DJD] Desenvolvimento de jogos digitais\n[Interfaces] Interfaces inteligentes\n[PDI] Processamento digital de imagem\n[Redes2] Redes e serviços de comunicações móveis\n[SIA] Sistemas de informação avançados',inline:false},
             {name:'4º Ano 2º Semestre',value:'[IS] Integração de sistemas\n[LAB] Laboratório de empreendedorismo\n[BI] Business intelligence\n[CN] Computação natural\n[CU] Computação ubíqua\n[Criptografia] Criptografia e segurança de sistemas informáticos\n[DAM] Desenvolvimento de aplicações móveis\n[DRV] Desenvolvimento em realidade virtual\n[M3D] Modelação e animação 3d\n[VC] Visão por computador',inline:false},
             { name: '\u200B', value: '\u200B' },
-            {name:'Turista',value:'[Turista] Quando já abandonaste a mui nobre UTAD'}
+            {name:'Turista',value:'[Turista] Quando já abandonaste a mui nobre UTAD',inline:false},
         )
         
         message.channel.send(embed2);
