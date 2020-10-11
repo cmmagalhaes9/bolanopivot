@@ -44,6 +44,9 @@ client.on('message',message=>{
         if(command==='ucs'){
             client.commands.get('ucs').execute(message)
         };
+        if(command==='avisos'){
+            client.commands.get('avisos').execute(message)
+        };
 
     }
     
