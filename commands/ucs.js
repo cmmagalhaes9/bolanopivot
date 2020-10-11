@@ -7,6 +7,7 @@ module.exports = {
         const embed2 = new Discord.MessageEmbed()
         .setColor('FF8F00')
         .setTitle('Códigos UCs')
+        .setAuthor('Ao adicionar cadeiras não utilizar [ ]')
         .setThumbnail('https://scontent.fopo3-1.fna.fbcdn.net/v/t1.0-9/64333410_2509673185733780_1283225542442614784_o.png?_nc_cat=106&_nc_sid=825194&_nc_ohc=XWQXj6apqZsAX-hYpMx&_nc_oc=AQklk0R6K4SL67SCncOI2XvTfV1Kw3bU-m-IP3lPkWIAATFefq_dCEFhLpxObT0TEvE&_nc_ht=scontent.fopo3-1.fna&oh=bd7c71ac7586bac4a1aedefd83e15837&oe=5FA81DFE')
         .addFields(
             {name:'1º Ano 1º Semestre', value:'[Álgebra] Álgebra Linear\n[Análise1] Análise Matemática I\n[MP1] Programação Procedimental\n[LAB1] Laboratório de Informática e Computadores\n[Seminário] Seminário de Informática\n[Tópicos] Tópicos de Matemática Discreta',inline:false},
