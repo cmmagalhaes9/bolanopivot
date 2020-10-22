@@ -1,4 +1,3 @@
-const { Guild, Channel, Client } = require("discord.js")
 
 module.exports = {
     name:'cleanmembers',
