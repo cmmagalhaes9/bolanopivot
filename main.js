@@ -44,10 +44,7 @@ client.on('message',message=>{
         if(command==='ucs'){
             client.commands.get('ucs').execute(message)
         };
-        if(command==='cleanmembers')
-        {
-            client.commands.get('cleanmembers').execute(message,client)
-        }
+        
         
 
     }
