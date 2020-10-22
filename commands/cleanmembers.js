@@ -5,9 +5,9 @@ module.exports = {
     description:'limpar inativos',
     execute(message){
         i=0;
-       members = guild.members.forEach(m => {
-           i++;
-           message.channel.send(i);
+       message.Guild.fetch().forEach(m => {
+           i++
+           message.Channel.send(i.toString());
        });
     }
 }
