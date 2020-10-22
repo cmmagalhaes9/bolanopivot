@@ -6,9 +6,12 @@ module.exports = {
         const guild = client.guilds.cache.get("537337830138052615");
         i=1;
         guild.members.cache.forEach(member =>{
-            console.log(i);
-            console.log(member.user.username);
-            i++;
+            if(member.roles === NULL)
+            {
+                console.log(i);
+                console.log(member.user.name);
+                i++
+            }
         } );
     }
 }
