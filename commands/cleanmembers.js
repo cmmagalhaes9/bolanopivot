@@ -1,13 +1,12 @@
-const { Guild, Channel } = require("discord.js")
+const { Guild, Channel, Client } = require("discord.js")
 
 module.exports = {
     name:'cleanmembers',
     description:'limpar inativos',
     execute(message){
-        i=0;
-       message.Guild.fetch().forEach(m => {
-           i++
-           message.Channel.send(i.toString());
-       });
+        guild.members.fetch()
+            .array.forEach(m => {
+                message.channel.send(m.id)
+            });
     }
 }

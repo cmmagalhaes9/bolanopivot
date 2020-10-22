@@ -24,7 +24,7 @@ module.exports = {
             { name: '\u200B', value: '\u200B' },
             {name:'Turista',value:'[OUT] Quando já abandonaste a mui nobre UTAD',inline:false},
         )
-        console.log('ok')
+     
         message.channel.send(embed2);
     }
 }
