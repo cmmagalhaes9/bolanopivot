@@ -3,7 +3,6 @@ module.exports = {
     name:'cleanmembers',
     description:'limpar inativos',
     execute(message){
-        guild.members.fetch()
-            .then(message.Channel.send('ok'));
+        guild.members.cache.forEach(member => message.channel.send(member.user.username));
     }
 }
