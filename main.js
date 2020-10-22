@@ -44,9 +44,11 @@ client.on('message',message=>{
         if(command==='ucs'){
             client.commands.get('ucs').execute(message)
         };
-        if(command==='avisos'){
-            client.channels.cache.find(i=>i.id==='765279521129365534').send('@everyone\nAviso!\n Devido às novas modificações do Discord de LEI pedimos que todos passem pelo canal #🤖bot-commands para atualizarem as suas permissões.\n Dentro de uma semanaa apagaremos os membros sem roles para limpar o servidor de utilizadores inativos!\nObrigado!');
-        };
+        if(command==='cleanmembers')
+        {
+            client.commands.get('cleanmembers').execute(message)
+        }
+        
 
     }
     
