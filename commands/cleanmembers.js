@@ -6,7 +6,7 @@ module.exports = {
         const guild = client.guilds.cache.get("537337830138052615");
         i=1;
         guild.members.cache.forEach(member =>{
-            if(member.user.username === "xStrorm3r")
+            if(member.user.username === "oRIBASpinao")
             {
                 
                 console.log(i);
