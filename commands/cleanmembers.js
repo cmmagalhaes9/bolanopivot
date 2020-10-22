@@ -6,7 +6,7 @@ module.exports = {
         const guild = client.guilds.cache.get("537337830138052615");
         i=1;
         guild.members.cache.forEach(member =>{
-            if(member.roles === NULL)
+            if(member.roles.find(r =>r.name === "Álgebra"))
             {
                 console.log(i);
                 console.log(member.user.name);
