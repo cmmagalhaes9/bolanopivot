@@ -15,8 +15,8 @@ module.exports = {
             { name: '\u200B', value: '\u200B' },
             {name:'Adicionar Cadeiras Isoladas',value:';study Código_Cadeira\n (usar comando ;ucs para ver os códigos de cada cadeira)',inline:true},
             {name:'Remover Cadeiras Isoladas',value:';unstudy Código_Cadeira\n (usar comando ;ucs para ver os códigos de cada cadeira)',inline:true},
-            
         )
+        console.log('ok');
         message.channel.send(embed);
     }
 }
