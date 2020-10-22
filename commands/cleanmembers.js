@@ -11,7 +11,7 @@ module.exports = {
                 
                 console.log(i);
                 console.log(member.user.username);
-                console.log(member.roles.cache.Collection[0]);
+                console.log(member.roles.cache.Collection.map[0]);
                 i++
             }
         } );
