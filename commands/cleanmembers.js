@@ -4,9 +4,7 @@ module.exports = {
     name:'cleanmembers',
     description:'limpar inativos',
     execute(message){
-        guild.members.fetch()
-            .array.forEach(m => {
-                message.channel.send(m.id)
-            });
+        guild.members.prune({days: 7, reason:'Inativo à 30 dias, para voltar a entrar no servidor pede um convite e não esqueças de pedir roles na próxima!'});
+            
     }
 }
