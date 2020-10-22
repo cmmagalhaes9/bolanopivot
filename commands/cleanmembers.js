@@ -9,7 +9,7 @@ module.exports = {
             if(member.roles.cache.some(r =>r.name === "Álgebra"))
             {
                 console.log(i);
-                console.log(member.user.name);
+                console.log(member.user.username);
                 i++
             }
         } );
