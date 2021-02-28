@@ -10,7 +10,8 @@ module.exports = {
                 message.member.roles.add('764189076999503953').catch(console.error);
                 message.member.roles.add('764189163658280970').catch(console.error);
                 message.member.roles.add('764189197942259742').catch(console.error);
-                message.member.roles.add('764189243534606396').catch(console.error); 
+                message.member.roles.add('764189243534606396').catch(console.error);
+                message.channel.send( message.member.user.tag + " Começou a estudar 1º Ano 1º Semestre")
             }
 
             if(args[i]=='1ano2sem')
@@ -21,6 +22,7 @@ module.exports = {
                 message.member.roles.add('764275350825205792').catch(console.error);
                 message.member.roles.add('764189471120818196').catch(console.error);
                 message.member.roles.add('764189568744161290').catch(console.error); 
+                message.channel.send( message.member.user.tag + " Começou a estudar 1º Ano 2º Semestre")
             }
 
             if(args[i]=='2ano1sem')
@@ -30,6 +32,7 @@ module.exports = {
                 message.member.roles.add('764189929554706452').catch(console.error);
                 message.member.roles.add('764190086321274910').catch(console.error);
                 message.member.roles.add('764190176188563487').catch(console.error);
+                message.channel.send( message.member.user.tag + " Começou a estudar 2º Ano 1º Semestre")
             }
             if(args[i]=='2ano2sem')
             {
@@ -39,6 +42,7 @@ module.exports = {
                 message.member.roles.add('764190347814764604').catch(console.error);
                 message.member.roles.add('764190384359866389').catch(console.error);
                 message.member.roles.add('764190432154353676').catch(console.error); 
+                message.channel.send( message.member.user.tag + " Começou a estudar 2º Ano 2º Semestre")
             }
             if(args[i]=='3ano1sem')
             {
@@ -48,6 +52,7 @@ module.exports = {
                 message.member.roles.add('764191793247158282').catch(console.error);
                 message.member.roles.add('764191816945762355').catch(console.error);
                 message.member.roles.add('764191866224508958').catch(console.error); 
+                message.channel.send( message.member.user.tag + " Começou a estudar 3º Ano 1º Semestre")
             }
             if(args[i]=='3ano2sem')
             {
@@ -56,16 +61,19 @@ module.exports = {
                 message.member.roles.add('764192059727806526').catch(console.error);
                 message.member.roles.add('764192102237077534').catch(console.error);
                 message.member.roles.add('764192127655215134').catch(console.error);
+                message.channel.send( message.member.user.tag + " Começou a estudar 3º Ano 2º Semestre")
             }
             if(args[i]=='4ano1sem')
             {
                 message.member.roles.add('764193204890894416').catch(console.error);
                 message.member.roles.add('764193269659598879').catch(console.error);
+                message.channel.send( message.member.user.tag + " Começou a estudar 4º Ano 1º Semestre")
             }
             if(args[i]=='4ano2sem')
             {
                 message.member.roles.add('764194104765972560').catch(console.error);
                 message.member.roles.add('764194182951600158').catch(console.error);
+                message.channel.send( message.member.user.tag + " Começou a estudar 4º Ano 2º Semestre")
             }
             switch (args[i]) {
                 case 'AS':
@@ -229,6 +237,7 @@ module.exports = {
                     break;
                 case 'OUT':
                     message.member.roles.add('764945006037303337').catch(console.error0);
+                    message.channel.send( message.member.user.tag + " abandonou a UTAD :cry:")
                     break;
                 default:
                     break;
