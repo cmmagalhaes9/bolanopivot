@@ -54,7 +54,7 @@ module.exports = {
                 message.member.roles.add('764191989926199328').catch(console.error);
                 message.member.roles.add('764192030854348893').catch(console.error);
                 message.member.roles.add('764192059727806526').catch(console.error);
-                message.member.roles.add('764189568744161290').catch(console.error);
+                message.member.roles.add('764192102237077534').catch(console.error);
                 message.member.roles.add('764192127655215134').catch(console.error);
             }
             if(args[i]=='4ano1sem')
