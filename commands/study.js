@@ -290,7 +290,7 @@ module.exports = {
                     break;
                 case 'OUT':
                     message.member.roles.add('764945006037303337').catch(console.error0);
-                    message.channel.send( message.member.user.tag + " abandonou a UTAD :cry:")
+                    message.channel.send( message.member.user.tag + " abandonou a UTAD :partying_face:")
                     break;
                 default:
                     break;
