@@ -20,7 +20,7 @@ for(const file of commandFiles)
 }
 
 client.on('ready', ()=>{
-    var channel = client.channels.find(c=>c.id==='764890387668008990');
+    var channel = client.channels.cache.find(c=>c.id==='764890387668008990');
     console.log("Bola no pivot está online!");
     channel.send("Bola No Pivot está novamente online!");
 })
