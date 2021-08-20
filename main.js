@@ -20,8 +20,10 @@ for(const file of commandFiles)
 }
 
 client.once('ready', ()=>{
+    const message = "ok";
+    message.channel.id='764890387668008990';
     console.log("Bola no pivot está online!");
-    client.commands.get('up').execute(); 
+    client.commands.get('up').execute(message); 
 })
 
 client.on('message',message=>{
