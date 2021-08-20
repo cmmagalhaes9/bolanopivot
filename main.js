@@ -21,7 +21,7 @@ for(const file of commandFiles)
 
 client.once('ready', ()=>{
     console.log("Bola no pivot está online!");
-    client.commands.get('up').execute(message,args); 
+    client.commands.get('up').execute(message); 
 })
 
 client.on('message',message=>{
