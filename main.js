@@ -19,11 +19,10 @@ for(const file of commandFiles)
     client.commands.set(command.name,command);
 }
 
-client.once('ready', ()=>{
-    const message = "ok";
-    message.channel.id='764890387668008990';
+client.on('ready', ()=>{
+    const channel = client.channels.find(channel=>channel.id==='764890387668008990');
     console.log("Bola no pivot está online!");
-    client.commands.get('up').execute(message); 
+    channel.send("Bola No Pivot está novamente online!");
 })
 
 client.on('message',message=>{
