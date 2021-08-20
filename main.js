@@ -21,6 +21,7 @@ for(const file of commandFiles)
 
 client.once('ready', ()=>{
     console.log("Bola no pivot está online!");
+    message.channel.send("Bola no pivot está novamente online!")
 })
 
 client.on('message',message=>{
