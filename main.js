@@ -41,6 +41,7 @@ client.on('message',message=>{
             client.commands.get('unstudy').execute(message,args) 
         };
         if(command==='info'){
+            console.log("AQUI")
             client.commands.get('info').execute(message)
         };
         if(command==='ucs'){
