@@ -22,7 +22,7 @@ for(const file of commandFiles)
 client.on('ready', ()=>{
     var channel = client.channels.cache.find(c=>c.id==='764890387668008990');
     console.log("Bola no pivot está online!");
-    channel.send("Bola No Pivot está novamente online!");
+    //channel.send("Bola No Pivot está novamente online!");
 })
 
 client.on('message',message=>{
@@ -30,6 +30,7 @@ client.on('message',message=>{
 
     const args= message.content.slice(prefix.length).trim().split(' ');
     const command = args.shift().toLowerCase();
+    console.log(command)
 
     if(message.channel.id=='708666739872890950' || message.channel.id=='764890387668008990')
     {
